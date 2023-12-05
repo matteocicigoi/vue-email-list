@@ -9,7 +9,8 @@
 </head>
 <body>
     <div id="app" v-cloak>
-        <ul v-if="counter === 10">
+        <h1>Vue Email List</h1>
+        <ul v-if="counter === 10" class="flex">
             <li v-for="element in email">{{ element }}</li>
         </ul>
     </div>
